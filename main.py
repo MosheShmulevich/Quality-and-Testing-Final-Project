@@ -1,15 +1,28 @@
-from tkinter import *
-from tkinter import messagebox
 
-root = Tk()
-root.title('Doctors Application')
+def login_dr():
+    User = input('enter your user: ')
 
-#a function that shows a warning message if 1 or more of the fields is incorrect (username, password, id)
-def Popup():
-    messagebox.showwarning("Error Message", "Wrong username, password or ID.\nPlease try again.")
+    while not (User.isdigit()) and not (User.islower()):
+    User = input('Please Try again')
+
+    ID=input('enter your id: ')
+    while not ID.isdigit():
+    ID = input('Please Try again')
+
+    User = "moshe123"
+    userName = input('enter your user: ')
+    if userName != User:
+     print('try again')
+
+    Password = "moshe123!"
+    if len(Password) > 10 :
+    print('try again')
 
 
 
-Button(root, text="Login", command=Popup).pack()
 
-root.mainloop()
+
+
+
+
+
