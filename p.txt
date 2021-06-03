@@ -1,0 +1,6 @@
+Do you have a fever? 
+Do you smoke?
+Are you pregnant?
+Do you have diarrhea and vomiting?
+Are you taking additional medications?
+Are there any other diseases?
